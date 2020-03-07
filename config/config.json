@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "agent-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/agentApp/AgentAppWebPart.js",
+          "manifest": "./src/webparts/agentApp/AgentAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AgentAppWebPartStrings": "lib/webparts/agentApp/loc/{locale}.js"
+  }
+}
