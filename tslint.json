@@ -1,5 +1,8 @@
 {
   "extends": "@microsoft/sp-tslint-rules/base-tslint.json",
+  "jsRules": {
+    "no-empty": true
+  },
   "rules": {
     "class-name": false,
     "export-name": false,

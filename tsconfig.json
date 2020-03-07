@@ -24,12 +24,15 @@
     ],
     "lib": [
       "es5",
+      "es6",
       "dom",
       "es2015.collection"
-    ]
+    ],
+    "allowJs": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/*.js"
   ],
   "exclude": [
     "node_modules",
